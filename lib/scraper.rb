@@ -4,4 +4,4 @@ require 'open-uri'
 doc = Nokogiri::HTML(open("https://flatironschool.com/"))
 puts doc.css(".headline-26OIBN").text.strip
 
-puts doc.css(".title-oE5vT4")
+puts doc.css(".inlineMobileLeft-2Yo002.imageTextBlockGrid2-3jXtmC")
